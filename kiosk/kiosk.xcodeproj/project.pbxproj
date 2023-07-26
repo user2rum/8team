@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3B73D5632A6E38600006FFC4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73D5622A6E38600006FFC4 /* main.swift */; };
+		F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */; };
+		F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2442A6FBB190051AAE9 /* Menu.swift */; };
+		F11FE2472A7016610051AAE9 /* OrderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2462A7016610051AAE9 /* OrderRepository.swift */; };
+		F11FE2492A70202A0051AAE9 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2482A70202A0051AAE9 /* Date+Format.swift */; };
 		F18B74412A6EC11F0038D33B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */; };
 		F18B74432A6EC5150038D33B /* BurgerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74422A6EC5150038D33B /* BurgerMenuViewController.swift */; };
 		F18B74452A6EDDE60038D33B /* CLKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74442A6EDDE60038D33B /* CLKit.swift */; };
@@ -32,6 +36,10 @@
 /* Begin PBXFileReference section */
 		3B73D55F2A6E38600006FFC4 /* kiosk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kiosk; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B73D5622A6E38600006FFC4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
+		F11FE2442A6FBB190051AAE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F11FE2462A7016610051AAE9 /* OrderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRepository.swift; sourceTree = "<group>"; };
+		F11FE2482A70202A0051AAE9 /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		F18B74422A6EC5150038D33B /* BurgerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerMenuViewController.swift; sourceTree = "<group>"; };
 		F18B74442A6EDDE60038D33B /* CLKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLKit.swift; sourceTree = "<group>"; };
@@ -79,6 +87,10 @@
 				F18B74482A6EDE260038D33B /* CLFrame.swift */,
 				F18B74462A6EDE100038D33B /* ViewType.swift */,
 				F18B744A2A6EE2140038D33B /* MainMenuType.swift */,
+				F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */,
+				F11FE2442A6FBB190051AAE9 /* Menu.swift */,
+				F11FE2462A7016610051AAE9 /* OrderRepository.swift */,
+				F11FE2482A70202A0051AAE9 /* Date+Format.swift */,
 			);
 			path = kiosk;
 			sourceTree = "<group>";
@@ -142,6 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B73D5632A6E38600006FFC4 /* main.swift in Sources */,
+				F11FE2472A7016610051AAE9 /* OrderRepository.swift in Sources */,
+				F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */,
+				F11FE2492A70202A0051AAE9 /* Date+Format.swift in Sources */,
+				F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */,
 				F18B74452A6EDDE60038D33B /* CLKit.swift in Sources */,
 				F18B744D2A6EE30F0038D33B /* SingleLineViewController.swift in Sources */,
 				F18B744B2A6EE2140038D33B /* MainMenuType.swift in Sources */,
