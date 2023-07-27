@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3B73D5632A6E38600006FFC4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73D5622A6E38600006FFC4 /* main.swift */; };
+		F111F68F2A71623D00E6DE19 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F68E2A71623D00E6DE19 /* InitViewController.swift */; };
+		F111F6962A71691700E6DE19 /* MenuProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6952A71691700E6DE19 /* MenuProvider.swift */; };
+		F111F6982A71692D00E6DE19 /* ShopType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6972A71692D00E6DE19 /* ShopType.swift */; };
+		F111F69A2A71694700E6DE19 /* OrderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6992A71694700E6DE19 /* OrderProvider.swift */; };
+		F111F69C2A71695500E6DE19 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F69B2A71695500E6DE19 /* Order.swift */; };
+		F111F69F2A71697200E6DE19 /* CLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F69E2A71697200E6DE19 /* CLViewController.swift */; };
+		F111F6A12A71698600E6DE19 /* CLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A02A71698600E6DE19 /* CLView.swift */; };
+		F111F6A32A71699900E6DE19 /* CLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A22A71699900E6DE19 /* CLNavigationController.swift */; };
+		F111F6A62A7172BC00E6DE19 /* ShakeShackMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A52A7172BC00E6DE19 /* ShakeShackMenu.swift */; };
 		F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */; };
 		F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2442A6FBB190051AAE9 /* Menu.swift */; };
 		F11FE2472A7016610051AAE9 /* OrderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2462A7016610051AAE9 /* OrderRepository.swift */; };
 		F11FE2492A70202A0051AAE9 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2482A70202A0051AAE9 /* Date+Format.swift */; };
 		F18B74412A6EC11F0038D33B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */; };
-		F18B74432A6EC5150038D33B /* BurgerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74422A6EC5150038D33B /* BurgerMenuViewController.swift */; };
-		F18B74452A6EDDE60038D33B /* CLKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74442A6EDDE60038D33B /* CLKit.swift */; };
+		F18B74432A6EC5150038D33B /* DetailMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74422A6EC5150038D33B /* DetailMenuViewController.swift */; };
 		F18B74472A6EDE100038D33B /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74462A6EDE100038D33B /* ViewType.swift */; };
 		F18B74492A6EDE260038D33B /* CLFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B74482A6EDE260038D33B /* CLFrame.swift */; };
 		F18B744B2A6EE2140038D33B /* MainMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B744A2A6EE2140038D33B /* MainMenuType.swift */; };
@@ -36,14 +44,22 @@
 /* Begin PBXFileReference section */
 		3B73D55F2A6E38600006FFC4 /* kiosk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kiosk; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B73D5622A6E38600006FFC4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F111F68E2A71623D00E6DE19 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		F111F6952A71691700E6DE19 /* MenuProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProvider.swift; sourceTree = "<group>"; };
+		F111F6972A71692D00E6DE19 /* ShopType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopType.swift; sourceTree = "<group>"; };
+		F111F6992A71694700E6DE19 /* OrderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProvider.swift; sourceTree = "<group>"; };
+		F111F69B2A71695500E6DE19 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F111F69E2A71697200E6DE19 /* CLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLViewController.swift; sourceTree = "<group>"; };
+		F111F6A02A71698600E6DE19 /* CLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLView.swift; sourceTree = "<group>"; };
+		F111F6A22A71699900E6DE19 /* CLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLNavigationController.swift; sourceTree = "<group>"; };
+		F111F6A52A7172BC00E6DE19 /* ShakeShackMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeShackMenu.swift; sourceTree = "<group>"; };
 		F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
 		F11FE2442A6FBB190051AAE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		F11FE2462A7016610051AAE9 /* OrderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRepository.swift; sourceTree = "<group>"; };
 		F11FE2482A70202A0051AAE9 /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		F18B74422A6EC5150038D33B /* BurgerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerMenuViewController.swift; sourceTree = "<group>"; };
-		F18B74442A6EDDE60038D33B /* CLKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLKit.swift; sourceTree = "<group>"; };
-		F18B74462A6EDE100038D33B /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		F18B74422A6EC5150038D33B /* DetailMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMenuViewController.swift; sourceTree = "<group>"; };
+		F18B74462A6EDE100038D33B /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewType.swift; path = ../ViewType.swift; sourceTree = "<group>"; };
 		F18B74482A6EDE260038D33B /* CLFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLFrame.swift; sourceTree = "<group>"; };
 		F18B744A2A6EE2140038D33B /* MainMenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuType.swift; sourceTree = "<group>"; };
 		F18B744C2A6EE30F0038D33B /* SingleLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineViewController.swift; sourceTree = "<group>"; };
@@ -79,20 +95,92 @@
 		3B73D5612A6E38600006FFC4 /* kiosk */ = {
 			isa = PBXGroup;
 			children = (
-				3B73D5622A6E38600006FFC4 /* main.swift */,
-				F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */,
-				F18B74422A6EC5150038D33B /* BurgerMenuViewController.swift */,
-				F18B744C2A6EE30F0038D33B /* SingleLineViewController.swift */,
-				F18B74442A6EDDE60038D33B /* CLKit.swift */,
-				F18B74482A6EDE260038D33B /* CLFrame.swift */,
-				F18B74462A6EDE100038D33B /* ViewType.swift */,
-				F18B744A2A6EE2140038D33B /* MainMenuType.swift */,
-				F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */,
-				F11FE2442A6FBB190051AAE9 /* Menu.swift */,
-				F11FE2462A7016610051AAE9 /* OrderRepository.swift */,
-				F11FE2482A70202A0051AAE9 /* Date+Format.swift */,
+				F111F6A82A7172F700E6DE19 /* App */,
+				F111F6A72A7172ED00E6DE19 /* Extension */,
+				F111F69D2A71696A00E6DE19 /* CLKit */,
+				F111F6942A71690D00E6DE19 /* Repository */,
+				F111F6932A71690700E6DE19 /* Provider */,
+				F111F6902A7168E000E6DE19 /* Model */,
+				F111F68D2A71622C00E6DE19 /* ViewController */,
 			);
 			path = kiosk;
+			sourceTree = "<group>";
+		};
+		F111F68D2A71622C00E6DE19 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F111F68E2A71623D00E6DE19 /* InitViewController.swift */,
+				F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */,
+				F18B74422A6EC5150038D33B /* DetailMenuViewController.swift */,
+				F18B744C2A6EE30F0038D33B /* SingleLineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F111F6902A7168E000E6DE19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F111F6A42A71727E00E6DE19 /* ShakeShackMenu */,
+				F18B744A2A6EE2140038D33B /* MainMenuType.swift */,
+				F18B74462A6EDE100038D33B /* ViewType.swift */,
+				F111F6972A71692D00E6DE19 /* ShopType.swift */,
+				F11FE2442A6FBB190051AAE9 /* Menu.swift */,
+				F111F69B2A71695500E6DE19 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F111F6932A71690700E6DE19 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				F111F6952A71691700E6DE19 /* MenuProvider.swift */,
+				F111F6992A71694700E6DE19 /* OrderProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		F111F6942A71690D00E6DE19 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */,
+				F11FE2462A7016610051AAE9 /* OrderRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F111F69D2A71696A00E6DE19 /* CLKit */ = {
+			isa = PBXGroup;
+			children = (
+				F111F69E2A71697200E6DE19 /* CLViewController.swift */,
+				F111F6A02A71698600E6DE19 /* CLView.swift */,
+				F111F6A22A71699900E6DE19 /* CLNavigationController.swift */,
+				F18B74482A6EDE260038D33B /* CLFrame.swift */,
+			);
+			path = CLKit;
+			sourceTree = "<group>";
+		};
+		F111F6A42A71727E00E6DE19 /* ShakeShackMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F111F6A52A7172BC00E6DE19 /* ShakeShackMenu.swift */,
+			);
+			path = ShakeShackMenu;
+			sourceTree = "<group>";
+		};
+		F111F6A72A7172ED00E6DE19 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE2482A70202A0051AAE9 /* Date+Format.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F111F6A82A7172F700E6DE19 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B73D5622A6E38600006FFC4 /* main.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +246,20 @@
 				F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */,
 				F11FE2492A70202A0051AAE9 /* Date+Format.swift in Sources */,
 				F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */,
-				F18B74452A6EDDE60038D33B /* CLKit.swift in Sources */,
+				F111F69A2A71694700E6DE19 /* OrderProvider.swift in Sources */,
+				F111F69C2A71695500E6DE19 /* Order.swift in Sources */,
+				F111F6A12A71698600E6DE19 /* CLView.swift in Sources */,
+				F111F69F2A71697200E6DE19 /* CLViewController.swift in Sources */,
+				F111F6962A71691700E6DE19 /* MenuProvider.swift in Sources */,
+				F111F68F2A71623D00E6DE19 /* InitViewController.swift in Sources */,
+				F111F6982A71692D00E6DE19 /* ShopType.swift in Sources */,
 				F18B744D2A6EE30F0038D33B /* SingleLineViewController.swift in Sources */,
+				F111F6A32A71699900E6DE19 /* CLNavigationController.swift in Sources */,
 				F18B744B2A6EE2140038D33B /* MainMenuType.swift in Sources */,
 				F18B74492A6EDE260038D33B /* CLFrame.swift in Sources */,
 				F18B74472A6EDE100038D33B /* ViewType.swift in Sources */,
-				F18B74432A6EC5150038D33B /* BurgerMenuViewController.swift in Sources */,
+				F18B74432A6EC5150038D33B /* DetailMenuViewController.swift in Sources */,
+				F111F6A62A7172BC00E6DE19 /* ShakeShackMenu.swift in Sources */,
 				F18B74412A6EC11F0038D33B /* MainMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

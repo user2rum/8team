@@ -8,11 +8,9 @@
 import Foundation
 
 enum ViewType {
-    case mainMenu
-    case burgerMenu
-    case frozenCustard
-    case drinks
-    case bear
+    case `init`(_ menuRepository: MenuRepositoryProtocol)
+    case mainMenu(_ menuRepository: MenuRepositoryProtocol)
+    case detailMenu(_ menuRepository: MenuRepositoryProtocol)
     case endProgram
     case other(_ text: String)
 }
@@ -20,16 +18,12 @@ enum ViewType {
 extension ViewType {
     var viewController: CLViewController {
         switch self {
-        case .mainMenu:
-            return MainMenuViewController()
-        case .burgerMenu:
-            return BurgerMenuViewController()
-        case .frozenCustard:
-            return BurgerMenuViewController()
-        case .drinks:
-            return BurgerMenuViewController()
-        case .bear:
-            return BurgerMenuViewController()
+        case let .`init`(menuRepository):
+            return InitViewController(menuRepository: menuRepository)
+        case let .mainMenu(menuRepository):
+            return MainMenuViewController(menuRepository: menuRepository)
+        case let .detailMenu(menuRepository):
+            return DetailMenuViewController(menuRepository: menuRepository)
         case .endProgram:
             return SingleLineViewController(singleLine: "프로그램을 종료합니다.")
         case .other(let text):
