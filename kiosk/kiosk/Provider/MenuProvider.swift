@@ -32,6 +32,22 @@ final class ShopAPIProvider: ShopAPIProviderProtocol {
             }
         }
         menuDictionary[.shakeShackBurger] = shakeShackMenuDictionary
+        
+        // Lotteria menu
+        var lotteriaMenuDictionary: [Menu: [Menu]] = [:]
+        for lotteriaMenu in LotteriaMenuType.allCases {
+            switch lotteriaMenu {
+            case .burger:
+                lotteriaMenuDictionary[lotteriaMenu.instance] = LotteriaBurger.allCases.map { $0.instance }
+            case .chicken:
+                lotteriaMenuDictionary[lotteriaMenu.instance] = LotteriaChicken.allCases.map { $0.instance }
+            case .dessert:
+                lotteriaMenuDictionary[lotteriaMenu.instance] = LotteriaDessert.allCases.map { $0.instance }
+            case .drink:
+                lotteriaMenuDictionary[lotteriaMenu.instance] = LotteriaDrink.allCases.map { $0.instance }
+            }
+        }
+        menuDictionary[.lotteria] = lotteriaMenuDictionary
     }
     
     enum Action {

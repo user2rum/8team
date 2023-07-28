@@ -56,6 +56,20 @@ extension Date {
         return medium + " \(hour):\(String(format: "%02d", self.minuteInt))"
     }
     
+    func between(from start: String, to end: String) -> Bool {
+         let dateFormatter = DateFormatter()
+         dateFormatter.dateFormat = "HH:mm"
+         if let startTime = dateFormatter.date(from: start),
+             let endTime = dateFormatter.date(from: end) {
+             if self >= startTime && self <= endTime {
+                 return true
+             }
+         } else {
+             return false
+         }
+         return false
+    }
+    
 }
 
 extension Locale {

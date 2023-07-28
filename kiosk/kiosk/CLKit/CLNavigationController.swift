@@ -31,4 +31,12 @@ class CLNavigationController {
     func popAll() {
         viewControllers = []
     }
+    
+    func pushDonotShow(_ viewController: CLViewController) {
+        viewControllers.append(viewController)
+    }
+    
+    func popDonotShow() {
+        viewControllers.removeLast()
+    }
 }

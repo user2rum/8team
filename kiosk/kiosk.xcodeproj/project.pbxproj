@@ -17,6 +17,10 @@
 		F111F6A12A71698600E6DE19 /* CLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A02A71698600E6DE19 /* CLView.swift */; };
 		F111F6A32A71699900E6DE19 /* CLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A22A71699900E6DE19 /* CLNavigationController.swift */; };
 		F111F6A62A7172BC00E6DE19 /* ShakeShackMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6A52A7172BC00E6DE19 /* ShakeShackMenu.swift */; };
+		F111F6AB2A72C49D00E6DE19 /* LotteriaMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6AA2A72C49D00E6DE19 /* LotteriaMenuType.swift */; };
+		F111F6AD2A72CACE00E6DE19 /* SelectedMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6AC2A72CACE00E6DE19 /* SelectedMenuViewController.swift */; };
+		F111F6AF2A72CC5600E6DE19 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6AE2A72CC5600E6DE19 /* Double+Format.swift */; };
+		F111F6B12A72D4FE00E6DE19 /* ShoppingCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111F6B02A72D4FE00E6DE19 /* ShoppingCardViewController.swift */; };
 		F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */; };
 		F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2442A6FBB190051AAE9 /* Menu.swift */; };
 		F11FE2472A7016610051AAE9 /* OrderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FE2462A7016610051AAE9 /* OrderRepository.swift */; };
@@ -53,6 +57,10 @@
 		F111F6A02A71698600E6DE19 /* CLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLView.swift; sourceTree = "<group>"; };
 		F111F6A22A71699900E6DE19 /* CLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLNavigationController.swift; sourceTree = "<group>"; };
 		F111F6A52A7172BC00E6DE19 /* ShakeShackMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeShackMenu.swift; sourceTree = "<group>"; };
+		F111F6AA2A72C49D00E6DE19 /* LotteriaMenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteriaMenuType.swift; sourceTree = "<group>"; };
+		F111F6AC2A72CACE00E6DE19 /* SelectedMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMenuViewController.swift; sourceTree = "<group>"; };
+		F111F6AE2A72CC5600E6DE19 /* Double+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		F111F6B02A72D4FE00E6DE19 /* ShoppingCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCardViewController.swift; sourceTree = "<group>"; };
 		F11FE2422A6FBAE40051AAE9 /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
 		F11FE2442A6FBB190051AAE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		F11FE2462A7016610051AAE9 /* OrderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRepository.swift; sourceTree = "<group>"; };
@@ -112,7 +120,9 @@
 				F111F68E2A71623D00E6DE19 /* InitViewController.swift */,
 				F18B74402A6EC11F0038D33B /* MainMenuViewController.swift */,
 				F18B74422A6EC5150038D33B /* DetailMenuViewController.swift */,
+				F111F6AC2A72CACE00E6DE19 /* SelectedMenuViewController.swift */,
 				F18B744C2A6EE30F0038D33B /* SingleLineViewController.swift */,
+				F111F6B02A72D4FE00E6DE19 /* ShoppingCardViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 		F111F6902A7168E000E6DE19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F111F6A92A72C47F00E6DE19 /* LotteriaMenu */,
 				F111F6A42A71727E00E6DE19 /* ShakeShackMenu */,
 				F18B744A2A6EE2140038D33B /* MainMenuType.swift */,
 				F18B74462A6EDE100038D33B /* ViewType.swift */,
@@ -171,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				F11FE2482A70202A0051AAE9 /* Date+Format.swift */,
+				F111F6AE2A72CC5600E6DE19 /* Double+Format.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -181,6 +193,14 @@
 				3B73D5622A6E38600006FFC4 /* main.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F111F6A92A72C47F00E6DE19 /* LotteriaMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F111F6AA2A72C49D00E6DE19 /* LotteriaMenuType.swift */,
+			);
+			path = LotteriaMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,18 +261,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F111F6B12A72D4FE00E6DE19 /* ShoppingCardViewController.swift in Sources */,
 				3B73D5632A6E38600006FFC4 /* main.swift in Sources */,
 				F11FE2472A7016610051AAE9 /* OrderRepository.swift in Sources */,
+				F111F6AF2A72CC5600E6DE19 /* Double+Format.swift in Sources */,
 				F11FE2452A6FBB190051AAE9 /* Menu.swift in Sources */,
 				F11FE2492A70202A0051AAE9 /* Date+Format.swift in Sources */,
 				F11FE2432A6FBAE40051AAE9 /* MenuRepository.swift in Sources */,
 				F111F69A2A71694700E6DE19 /* OrderProvider.swift in Sources */,
 				F111F69C2A71695500E6DE19 /* Order.swift in Sources */,
+				F111F6AD2A72CACE00E6DE19 /* SelectedMenuViewController.swift in Sources */,
 				F111F6A12A71698600E6DE19 /* CLView.swift in Sources */,
 				F111F69F2A71697200E6DE19 /* CLViewController.swift in Sources */,
 				F111F6962A71691700E6DE19 /* MenuProvider.swift in Sources */,
 				F111F68F2A71623D00E6DE19 /* InitViewController.swift in Sources */,
 				F111F6982A71692D00E6DE19 /* ShopType.swift in Sources */,
+				F111F6AB2A72C49D00E6DE19 /* LotteriaMenuType.swift in Sources */,
 				F18B744D2A6EE30F0038D33B /* SingleLineViewController.swift in Sources */,
 				F111F6A32A71699900E6DE19 /* CLNavigationController.swift in Sources */,
 				F18B744B2A6EE2140038D33B /* MainMenuType.swift in Sources */,

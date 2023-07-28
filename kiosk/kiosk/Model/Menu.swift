@@ -37,6 +37,10 @@ class Menu: Hashable, Equatable {
         return name
     }
     
+    func displayPrice() -> Double {
+        return price
+    }
+    
     static func == (lhs: Menu, rhs: Menu) -> Bool {
         return lhs.name == rhs.name &&
         lhs.description == rhs.description &&

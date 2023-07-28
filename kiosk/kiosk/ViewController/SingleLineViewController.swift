@@ -14,12 +14,13 @@ final class SingleLineViewController: CLViewController {
     init(singleLine text: String) {
         super.init()
         singleLineView.setContents(text)
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
         configure()
     }
+    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//    }
 }
 
 extension SingleLineViewController {

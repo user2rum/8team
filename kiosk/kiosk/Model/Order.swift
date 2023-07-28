@@ -8,7 +8,7 @@
 import Foundation
 
 struct Order: Equatable {
-    private let menu: Menu
+    let menu: Menu
     private let createdAt: Date
     private var updatedAt: Date
     
